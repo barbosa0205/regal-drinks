@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Regal Drinks</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <main>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <!-- logo -->
+        <a href="/" class="logo">RD</a>
+
+        <!-- links -->
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="/">Home</a></li>
+          <li class="navbar-item"><a href="/about-us.html">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- section 1 -->
+      <section class="section main-section">
+        <div class="images-container">
+          <img
+            class="main-image"
+            src="./public/assets/wine-glasses-toast-art-2146770053.png"
+            alt="wine"
+          />
+          <h1 class="title">Regal Drinks</h1>
+        </div>
+        <p class="text">Exquisite flavors, unique experiences.</p>
+        <ul class="brands">
+          <li><img src="/public/assets/brand-jackdaniels.png" alt="" /></li>
+          <li><img src="/public/assets/brand-gallo.png" alt="" /></li>
+          <li><img src="/public/assets/brand-patron.png" alt="" /></li>
+          <li><img src="/public/assets/brand-passport.png" alt="" /></li>
+        </ul>
+        <div class="button-container">
+          <button class="button">Discover our liquors</button>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section class="section section2">
+        <div class="container-text-image">
+          <img
+            class="sidra-right"
+            src="/public/assets/sidra_pop.png"
+            alt="sidra"
+          />
+          <p class="text-sidra">
+            classics to the latest trends in alcoholic beverages. Our passion
+            for wines and spirits leads us to always look for the latest news
+            and trends in the market, to always offer you the best and the most
+            innovative.
+          </p>
+        </div>
+        <div class="container-text-image container-text-image_wine">
+          <img
+            class="wine-left"
+            src="/public/assets/wine-glass-png-pictures-2.png"
+            alt="sidra"
+          />
+          <p class="text-wine">
+            On our wines and spirits page you will find a wide selection of the
+            best brands and varieties to satisfy the most demanding palates.
+            From intense red wines to smooth whites, through high-quality
+            artisan spirits and spirits, we invite you to explore our products
+            and discover new flavors for every occasion. What are you waiting
+            for to enjoy a unique and exclusive experience?
+          </p>
+        </div>
+        <div class="button-container flex-end">
+          <button class="button">SUSCRIPTIONS</button>
+        </div>
+      </section>
+
+      <!-- blackk & white and carrousel -->
+      <section class="section section4">
+        <!-- black & white liquor -->
+        <div class="black-white-container">
+          <div class="black-white-image-list_container">
+            <img
+              class="drink-black-white"
+              src="/public/assets/Vera_Big.webp"
+              alt="verawang liquor"
+            />
+
+            <li class="black-white-item item-black">
+              Intense aromas that awaken your senses
+            </li>
+            <li class="black-white-item item-white">
+              Balanced flavors that win over the palate.
+            </li>
+          </div>
+        </div>
+        <h2 class="title-section4">Featured Wines and Spirits</h2>
+        <!-- carrousel wrap -->
+        <div class="carrousel-wrap">
+          <!-- carrousel -->
+          <ul class="carrousel">
+            <article class="carrousel-card">
+              <img
+                class="carrousel-card_img"
+                src="/public/assets/merlot-gallo-family-glas.png"
+                alt="vino tinto merlot"
+              />
+              <h3>Vino Tinto Merlot</h3>
+            </article>
+            <article class="carrousel-card">
+              <img
+                class="carrousel-card_img carrousel-card_img_jackdaniels"
+                src="/public/assets/jackdaniels.png"
+                alt="Jack Daniels"
+              />
+              <h3>Wisky Jack Daniels</h3>
+            </article>
+            <article class="carrousel-card">
+              <img
+                class="carrousel-card_img carrousel-card_img_patron"
+                src="/public/assets/bottlepatron.png"
+                alt="vino tinto merlot"
+              />
+              <h3>Tequila Roca Patron</h3>
+            </article>
+          </ul>
+          <!-- arrows -->
+          <i
+            id="carrousel-left"
+            class="ri-arrow-left-circle-fill arrow arrow-left"
+          ></i>
+          <i
+            id="carrousel-right"
+            class="ri-arrow-right-circle-fill arrow arrow-right"
+          ></i>
+        </div>
+      </section>
+
+      <!-- susciption -->
+      <section class="section5">
+        <h3>
+          Unete a nuestro club de vinos y desccumbre nuevas opciones cada mes
+        </h3>
+        <p>
+          Recibe una selección de los mejores vinos y licores de nuestra bodega
+          cada mes, directamente en tu hogar
+        </p>
+        <div class="suscriptions-cards_container">
+          <article class="suscription-card">
+            <div class="suscription-card_container">
+              <h4 class="suscription-title suscription-title_gold">
+                Vino a tu gusto
+              </h4>
+              <h2 class="suscription-month">1 MONTH</h2>
+              <p class="suscription-price suscription-price_gold">$40</p>
+              <ul class="suscription-beneficies">
+                <li>- 1 licor perfectamente seleccionado</li>
+                <li>- acceso exclusivo cata de vinos online</li>
+                <li>- 10% de descuento en pedidos adicionales</li>
+              </ul>
+              <button class="suscription-button suscription-button_gold">
+                SUBSCRIBE
+              </button>
+            </div>
+            <img
+              class="card-mancha"
+              src="/public/assets/mancha.png"
+              alt="mancha"
+            />
+          </article>
+
+          <article class="suscription-card">
+            <div class="suscription-card_container">
+              <h4 class="suscription-title suscription-title_wine">
+                Explorador de vinos
+              </h4>
+              <h2 class="suscription-month">6 MONTH</h2>
+              <p class="suscription-price suscription-price_wine">$200</p>
+              <ul class="suscription-beneficies">
+                <li>
+                  - 1 licor perfectamente seleccionado y 1 licor a su eleccion
+                </li>
+                <li>- Guia de degustacion de licores cada mes</li>
+                <li>- acceso exclusivo cata de vinos online</li>
+                <li>- 15% de descuento en pedidos adicionales</li>
+              </ul>
+              <button class="suscription-button suscription-button_wine">
+                SUBSCRIBE
+              </button>
+            </div>
+            <img
+              class="card-mancha_wine"
+              src="/public/assets/mancha.png"
+              alt="mancha"
+            />
+          </article>
+
+          <article class="suscription-card">
+            <div class="suscription-card_container">
+              <h4 class="suscription-title suscription-title_gold">
+                Coleccionista de vinos
+              </h4>
+              <h2 class="suscription-month">12 MONTH</h2>
+              <p class="suscription-price suscription-price_gold">$450</p>
+              <ul class="suscription-beneficies">
+                <li>
+                  - 2 licores perfectamente seleccionado y 1 licor a su eleccion
+                </li>
+                <li>- Guia de degustacion de licores cada mes</li>
+                <li>- acceso exclusivo cata de vinos online</li>
+                <li>- 25% de descuento en pedidos adicionales</li>
+              </ul>
+              <button class="suscription-button suscription-button_gold">
+                SUBSCRIBE
+              </button>
+            </div>
+            <img
+              class="card-mancha"
+              src="/public/assets/mancha.png"
+              alt="mancha"
+            />
+          </article>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="section section6">
+        <h2 class="contact-subtitle">CONTACT WITH US</h2>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mrgvklnj"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="name" />
+          <input type="email" name="email" placeholder="_replyto" />
+          <textarea name="message" placeholder="message"></textarea>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <!-- logo -->
+        <p class="footer-logo">RD</p>
+
+        <!-- social -->
+        <ul class="social-container">
+          <i class="ri-facebook-circle-fill social-icon social-facebook"></i>
+          <i class="ri-instagram-fill social-icon social-instagram"></i>
+        </ul>
+      </footer>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
