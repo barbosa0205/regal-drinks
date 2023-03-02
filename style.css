@@ -1010,7 +1010,8 @@ footer {
   }
 }
 
-/* desktop */
+/* 
+
 
 @media (min-width: 1280px) {
   .images-container > img {
@@ -1230,4 +1231,4 @@ footer {
   .social-icon {
     font-size: 5rem;
   }
-}
+} */
