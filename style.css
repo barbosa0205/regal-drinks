@@ -1013,20 +1013,8 @@ footer {
 /* desktop */
 
 @media (min-width: 1280px) {
-  .navbar {
-    min-height: 10rem;
-  }
-
-  .logo {
-    font-size: 5rem;
-  }
-
-  .navbar-item {
-    font-size: 3.5rem;
-  }
-
   .images-container > img {
-    max-width: 80rem;
+    max-width: 70rem;
   }
 
   .title {
