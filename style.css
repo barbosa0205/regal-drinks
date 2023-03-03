@@ -404,6 +404,10 @@ main {
   padding: 7rem 0;
 }
 
+.carrousel::-webkit-scrollbar {
+  display: none;
+}
+
 .arrow {
   cursor: pointer;
   font-size: 4rem;
